@@ -132,4 +132,4 @@ with tab3:
         st.cache_data.clear()
 
     # 피드백 컬럼 데이터 화면에 표시
-    st.write(df['이름','피드백'])
+    st.write(df[['이름','피드백']])
